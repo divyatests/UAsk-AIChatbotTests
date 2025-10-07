@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="13" passed="13" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-10-07T14:15:47 GST" name="Default suite" finished-at="2025-10-07T14:19:18 GST" duration-ms="211077">
+    <groups>
+    </groups>
+    <test started-at="2025-10-07T14:15:47 GST" name="Default test" finished-at="2025-10-07T14:19:18 GST" duration-ms="211077">
+      <class name="CloudJune.CloudJune.UAskChat">
+        <test-method is-config="true" signature="setup()[pri:0, instance:CloudJune.CloudJune.UAskChat@663c9e7a]" started-at="2025-10-07T14:15:47 GST" name="setup" finished-at="2025-10-07T14:15:49 GST" duration-ms="1548" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="chatWidgetLoadsDesktop()[pri:1, instance:CloudJune.CloudJune.UAskChat@663c9e7a]" started-at="2025-10-07T14:15:49 GST" name="chatWidgetLoadsDesktop" finished-at="2025-10-07T14:15:53 GST" duration-ms="4158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chatWidgetLoadsDesktop -->
+        <test-method signature="sendMessageAndReceiveResponse()[pri:2, instance:CloudJune.CloudJune.UAskChat@663c9e7a]" started-at="2025-10-07T14:15:53 GST" name="sendMessageAndReceiveResponse" finished-at="2025-10-07T14:16:11 GST" duration-ms="18295" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendMessageAndReceiveResponse -->
+        <test-method signature="inputClearedAfterSending()[pri:3, instance:CloudJune.CloudJune.UAskChat@663c9e7a]" started-at="2025-10-07T14:16:11 GST" name="inputClearedAfterSending" finished-at="2025-10-07T14:16:22 GST" duration-ms="10893" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inputClearedAfterSending -->
+        <test-method signature="multilingualSupportArabicRTL()[pri:4, instance:CloudJune.CloudJune.UAskChat@663c9e7a]" started-at="2025-10-07T14:16:22 GST" name="multilingualSupportArabicRTL" finished-at="2025-10-07T14:16:41 GST" duration-ms="19175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multilingualSupportArabicRTL -->
+        <test-method signature="scrollAndAccessibility()[pri:5, instance:CloudJune.CloudJune.UAskChat@663c9e7a]" started-at="2025-10-07T14:16:41 GST" name="scrollAndAccessibility" finished-at="2025-10-07T14:16:54 GST" duration-ms="12379" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scrollAndAccessibility -->
+        <test-method signature="testClearHelpfulResponse()[pri:6, instance:CloudJune.CloudJune.UAskChat@663c9e7a]" started-at="2025-10-07T14:16:54 GST" name="testClearHelpfulResponse" finished-at="2025-10-07T14:17:10 GST" duration-ms="16784" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClearHelpfulResponse -->
+        <test-method signature="testNoHallucinations()[pri:7, instance:CloudJune.CloudJune.UAskChat@663c9e7a]" started-at="2025-10-07T14:17:10 GST" name="testNoHallucinations" finished-at="2025-10-07T14:17:32 GST" duration-ms="21754" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNoHallucinations -->
+        <test-method signature="testConsistentResponsesAcrossLanguages()[pri:8, instance:CloudJune.CloudJune.UAskChat@663c9e7a]" started-at="2025-10-07T14:17:32 GST" name="testConsistentResponsesAcrossLanguages" finished-at="2025-10-07T14:18:05 GST" duration-ms="33018" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testConsistentResponsesAcrossLanguages -->
+        <test-method signature="testCleanResponseFormatting()[pri:9, instance:CloudJune.CloudJune.UAskChat@663c9e7a]" started-at="2025-10-07T14:18:05 GST" name="testCleanResponseFormatting" finished-at="2025-10-07T14:18:27 GST" duration-ms="21436" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCleanResponseFormatting -->
+        <test-method signature="testLoadingState()[pri:10, instance:CloudJune.CloudJune.UAskChat@663c9e7a]" started-at="2025-10-07T14:18:27 GST" name="testLoadingState" finished-at="2025-10-07T14:18:37 GST" duration-ms="10863" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoadingState -->
+        <test-method signature="testFallbackMessage()[pri:11, instance:CloudJune.CloudJune.UAskChat@663c9e7a]" started-at="2025-10-07T14:18:37 GST" name="testFallbackMessage" finished-at="2025-10-07T14:18:54 GST" duration-ms="16388" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFallbackMessage -->
+        <test-method signature="testChatWidgetLoadsOnMobile()[pri:12, instance:CloudJune.CloudJune.UAskChat@663c9e7a]" started-at="2025-10-07T14:18:54 GST" name="testChatWidgetLoadsOnMobile" finished-at="2025-10-07T14:19:06 GST" duration-ms="11867" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testChatWidgetLoadsOnMobile -->
+        <test-method signature="testIgnoresMaliciousPrompts()[pri:13, instance:CloudJune.CloudJune.UAskChat@663c9e7a]" started-at="2025-10-07T14:19:06 GST" name="testIgnoresMaliciousPrompts" finished-at="2025-10-07T14:19:18 GST" duration-ms="12465" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIgnoresMaliciousPrompts -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:CloudJune.CloudJune.UAskChat@663c9e7a]" started-at="2025-10-07T14:19:18 GST" name="teardown" finished-at="2025-10-07T14:19:18 GST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- CloudJune.CloudJune.UAskChat -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
